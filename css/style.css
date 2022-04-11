@@ -37,6 +37,7 @@ em strong {
 }
 
 ul {
+	/* travar a lista na mesma linha da imagem que vem logo na sequência */
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
