@@ -64,10 +64,12 @@ nav a:hover {
     border-radius: 10px;
 }
 
+/* Quando passa o mouse em cima do item de menu */
 .produtos li:hover {
     border-color: #C78C19;
 }
 
+/* Quando clica sobre o item de menu com o mouse */
 .produtos li:active {
     border-color: #088C19;
 }
