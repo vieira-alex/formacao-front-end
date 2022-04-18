@@ -1,0 +1,107 @@
+header {
+    background: #BBBBBB;
+    /* tudo dentro do cabeçalho tem que ter os 20ox para cima e para baixo. Nada pode encostar na margem */
+    padding: 20px 0;
+}
+
+.caixa {
+    /* A caixa não pode ser estática e precisa ser levantada, por isso o relative */
+    position: relative;
+    width: 940px;
+    /* margem para cima e baixo igual a zero e para a esquerda e direta como auto */
+    margin: 0 auto;
+}
+
+nav {
+    /* posicionar o menu de navegação da página para iniciar de acordo com as coordenadas de top e right abaixo */
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    /* Alinha o menu um ao lado do outro */
+    display: inline;
+    /* Espaça o texto do menu em relação ao menu ao lado */
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Se o mouse estiver por cima do link dentro do menu de navegação */
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    /* Descolar o conteúdo do cabeçalho aumentando o espaçamento interno configurando valor para cima e baixo e zero para os lados */
+    padding: 50px 0;
+}
+
+.produtos li {
+    /* Posiciona os itens da lista um ao lado do outro na horizontal ocupando apenas o tamanho do conteúdo deles */
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    /* Quando usamos o inline-block, como acima, é alinhado pela linha debaixo, mas nós precisamos pela linha de cima, a primeira */
+    vertical-align: top;
+    margin: 0 0 1.5% 1.5%;
+    padding: 30px 20px;
+    /* Com a propriedade abaixo, os 30% acima serão sempre 30% e o padding de 20% acima será dentro desses 30%, assim os itens da lista continuarão lado a lado, sem quebra de linha */
+    box-sizing: border-box;
+    /* Tamanho, tipo e cor */
+    border: 2px solid #000000;
+    /* Arredonda todos os cantos de forma igual */
+    border-radius: 10px;
+}
+
+/* Quando passa o mouse em cima do item de menu */
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+/* Quando clica sobre o item de menu com o mouse */
+.produtos li:active {
+    border-color: #088C19;
+}
+
+/* Alterar o h2 quando o mouse estiver por cima do li (produtos) */
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("../img/produtos/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
