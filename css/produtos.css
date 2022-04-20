@@ -4,7 +4,7 @@ header {
     padding: 20px 0;
 }
 
-.caixa {
+.header-caixa {
     /* A caixa não pode ser estática e precisa ser levantada, por isso o relative */
     position: relative;
     width: 940px;
@@ -12,21 +12,24 @@ header {
     margin: 0 auto;
 }
 
-nav {
+/* menu de navegação do header */
+.header-nav {
     /* posicionar o menu de navegação da página para iniciar de acordo com as coordenadas de top e right abaixo */
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-nav li {
+/* itens do menu de navegação */
+.header-nav li {
     /* Alinha o menu um ao lado do outro */
     display: inline;
     /* Espaça o texto do menu em relação ao menu ao lado */
     margin: 0 0 0 15px;
 }
 
-nav a {
+/* links do menu de navegação */
+.header-nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -35,19 +38,21 @@ nav a {
 }
 
 /* Se o mouse estiver por cima do link dentro do menu de navegação */
-nav a:hover {
+.header-nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
 
-.produtos {
+/* Opções de produtos que aparecerem na tela um ao lado do outro */
+.main-lista-produtos {
     width: 940px;
     margin: 0 auto;
     /* Descolar o conteúdo do cabeçalho aumentando o espaçamento interno configurando valor para cima e baixo e zero para os lados */
     padding: 50px 0;
 }
 
-.produtos li {
+/* Itens da lista de produtos */
+.main-lista-produtos-itens {
     /* Posiciona os itens da lista um ao lado do outro na horizontal ocupando apenas o tamanho do conteúdo deles */
     display: inline-block;
     text-align: center;
@@ -65,42 +70,45 @@ nav a:hover {
 }
 
 /* Quando passa o mouse em cima do item de menu */
-.produtos li:hover {
+.main-lista-produtos-itens:hover {
     border-color: #C78C19;
 }
 
 /* Quando clica sobre o item de menu com o mouse */
-.produtos li:active {
+.main-lista-produtos-itens:active {
     border-color: #088C19;
 }
 
 /* Alterar o h2 quando o mouse estiver por cima do li (produtos) */
-.produtos li:hover h2 {
+.main-lista-produtos-itens:hover h2 {
     font-size: 34px;
 }
 
-.produtos h2 {
+.main-lista-produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.produto-descricao {
+.main-lista-produtos-itens-produto-descricao {
     font-size: 18px;
 }
 
-.produto-preco {
+.main-lista-produtos-itens-produto-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
 
 footer {
-    text-align: center;
     background: url("../img/produtos/bg.jpg");
     padding: 40px 0;
 }
 
-.copyright {
+.titulo-centralizado {
+	text-align: center;
+}
+
+.footer-copyright {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
