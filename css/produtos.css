@@ -55,7 +55,6 @@ header {
 .main-lista-produtos-itens {
     /* Posiciona os itens da lista um ao lado do outro na horizontal ocupando apenas o tamanho do conteúdo deles */
     display: inline-block;
-    text-align: center;
     width: 30%;
     /* Quando usamos o inline-block, como acima, é alinhado pela linha debaixo, mas nós precisamos pela linha de cima, a primeira */
     vertical-align: top;
@@ -104,7 +103,7 @@ footer {
     padding: 40px 0;
 }
 
-.titulo-centralizado {
+.texto-centralizado {
 	text-align: center;
 }
 
