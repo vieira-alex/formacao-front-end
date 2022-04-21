@@ -53,8 +53,12 @@ header {
 	padding: 30px 0;
 }
 
+.texto-centralizado {
+	text-align: center;
+}
+
 .main-caixa h2 {
-    padding: 10px 0;
+    padding: 20px 0;
     font-size: 23px;
     font-weight: bold;
 }
@@ -64,13 +68,13 @@ header {
     font-size: 18px;
 }
 
-.nome-empresa {
+.main-caixa-nome-empresa {
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
 
-.missao {
+.main-caixa-missao {
     font-style: italic;
     font-weight: bold;
     color: #FF0000;
@@ -93,8 +97,10 @@ em strong {
 	padding: 20px;
 }
 
-.texto-centralizado {
-	text-align: center;
+.main-beneficios h3 {
+    /* Padding bottom e top */
+    padding: 15px 10px;
+    font-weight: bold;
 }
 
 .main-beneficios-lista {
@@ -103,10 +109,10 @@ em strong {
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
-}
-
-.main-beneficios-lista-itens {
-	font-style: italic;
+    /* estilo de bullet-point */
+    list-style-type: disc;
+    padding-left: 40px;
+    font-style: italic;
 }
 
 .main-beneficios-imagem {
