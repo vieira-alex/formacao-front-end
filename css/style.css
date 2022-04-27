@@ -52,3 +52,35 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    /* 40 pixels para cima e baixo */
+    margin: 40px 0;
+}
+
+form label, form legend {
+    /* ocupa 100% */
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    /* ocupa 100% */
+    display: block;
+    margin: 0 0 20px;
+    /* A propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda */
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox { 
+    margin: 20px 0;
+}
+
+/* prioridade: tag --> class --> id --> inline no html (style="color: purple;") */
