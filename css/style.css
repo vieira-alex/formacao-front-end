@@ -121,3 +121,8 @@ td, th {
     border: 1px solid black;
     padding: 8px 15px;
 }
+
+/* css da página inicial */
+.main-banner {
+    width: 100%;
+}

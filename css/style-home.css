@@ -1,5 +1,4 @@
-/* Posso usar id em vez de class para propriedades que não irão se repetir */
-#main-banner {
+.main-banner {
 	width: 100%;
 }
 
